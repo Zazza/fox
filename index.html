@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var i = 145;
+var myVar=setInterval(function(){myTimer()},50);
+
+function myTimer()
+{
+    document.getElementById('logo').style.backgroundPositionX = 145 + 110*i + "px";
+    i--;
+}
+</script>
+
+
+</head>
+<body>
+    <div id="logo" style="margin: 100px auto 0; height: 30px; width: 35px; background-image: url(fox.png); background-size: cover;"></div>
+</html>
